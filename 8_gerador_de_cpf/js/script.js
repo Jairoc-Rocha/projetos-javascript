@@ -12,6 +12,7 @@ function gerarCPF() {
   cpfEl.innerText = formatarCPF(nStr + dv1 + dv2);
 }
 
+// Função para calcular o digito verificador(DV)
 function calcularDV(numero, peso) {
   let total = 0;
   for (let i = 0; i < numero.length; i++) {
