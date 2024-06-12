@@ -9,6 +9,10 @@ h1 {
   text-align: center;
   margin: 1rem 0;
 }
+.congratulations-container {
+  justify-content: center;
+  margin-top: 20px;
+}
 .congratulations {
   font-size: 1.5rem;
   padding: 0.4rem;
